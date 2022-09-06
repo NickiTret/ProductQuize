@@ -115,6 +115,10 @@ body {
   background: #ffffff;
 }
 
+.header img{
+  max-height: 44px;
+}
+
 .header__container {
   padding-top: 18px;
   padding-bottom: 18px;

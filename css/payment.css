@@ -107,6 +107,10 @@ body {
   margin-bottom: 44px;
 }
 
+.header img{
+  max-height: 44px;
+}
+
 .header__logo {
   height: 44px;
   display: inline-block;
