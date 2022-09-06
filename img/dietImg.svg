@@ -1,0 +1,21 @@
+<svg width="429" height="305" viewBox="0 0 429 305" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_34)">
+<line x1="5" y1="229.5" x2="424" y2="229.5" stroke="#E4E4E4"/>
+<line x1="5" y1="79.5" x2="424" y2="79.5" stroke="#E4E4E4"/>
+<line x1="5" y1="154.5" x2="424" y2="154.5" stroke="#E4E4E4"/>
+<line x1="5" y1="4.50003" x2="424" y2="4.5" stroke="#E4E4E4"/>
+<path d="M134 129C70.3265 76.9999 5 79 5 79V305H424V271.5C424 271.5 248.89 277.065 218.5 239C169 177 197.673 181 134 129Z" fill="#F97B25" fill-opacity="0.33"/>
+<path d="M6 78C6 78 75 79 135 128C195 177 174 188.5 221 240.5C250.375 273 370.5 270.5 417.5 270.5" stroke="#F97B25" stroke-width="3" stroke-linecap="round"/>
+<path d="M166 155C166 155 229 193.5 273 149.5C317 105.5 308.465 84.4157 345 56C367.5 38.5 423 44.5 423 44.5" stroke="#C8170C" stroke-width="3" stroke-linecap="round"/>
+<circle cx="5.5" cy="77.5" r="5" fill="white" stroke="#F97B25" stroke-width="3"/>
+<circle cx="423.5" cy="270.5" r="5" fill="white" stroke="#F97B25" stroke-width="3"/>
+<circle cx="165.5" cy="154.5" r="5" fill="white" stroke="#C8170C" stroke-width="3"/>
+<circle cx="423.5" cy="44.5" r="5" fill="white" stroke="#C8170C" stroke-width="3"/>
+<line x1="5" y1="304.5" x2="424" y2="304.5" stroke="#E4E4E4"/>
+</g>
+<defs>
+<clipPath id="clip0_1_34">
+<rect width="429" height="305" fill="white"/>
+</clipPath>
+</defs>
+</svg>

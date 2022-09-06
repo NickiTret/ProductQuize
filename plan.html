@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="img/favicon.ico" />
+    <title>Product</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="./css/result.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a href="#" class="header__logo"
+          ><img src="img/logo.png" alt="logo"
+        /></a>
+        <a href="payment.html" class="btn">Получить план</a>
+      </div>
+    </header>
+
+    <section class="slim">
+      <div class="slim__container container">
+        <h1 class="slim__title">Начните худеть прямо сейчас!</h1>
+        <p class="slim__text">
+          Мы уважаем вашу конфиденциальность и очень серьезно относимся к ее
+          защите — никакого спама.
+        </p>
+        <a href="payment.html" class="btn slim__btn">Получить план</a>
+        <img src="img/slim.svg" alt="slim" class="slim__img" />
+      </div>
+    </section>
+
+    <section class="individual">
+      <div class="container">
+        <h2 class="individual__title">
+          Получите свой индивидуальный набор для похудения:
+        </h2>
+        <div class="individual__block">
+          <img src="img/offer.jpg" alt="offer" class="individual__block-img" />
+          <div class="individual__block-offer offer">
+            <ul class="offer__list">
+              <li class="offer__list-item">Простой план питания</li>
+              <li class="offer__list-item">Трекеры</li>
+              <li class="offer__list-item">Учебные материалы и советы</li>
+              <li class="offer__list-item">Жиросжигающие тренировки</li>
+            </ul>
+            <div class="offer__save">
+              <div class="offer__save-header">
+                <strong>Special offer</strong>
+                <div class="offer__save-percent">SAVE 90%</div>
+              </div>
+              <div class="offer__save-row">
+                <span>7-Day trial</span>
+                <div class="offer__save-price">
+                  <span>50€</span><strong>5€</strong>
+                </div>
+              </div>
+              <div class="offer__save-row">
+                <span>Total today</span>
+                <div class="offer__save-price"><strong>5€</strong></div>
+              </div>
+              <a href="payment.html" class="btn offer__btn">Получить план</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title">
+          Наши пользователи достигли потрясающих результатов
+        </h2>
+        <div class="reviews__points">
+          <div class="reviews__points-slider swiper">
+            <div>
+                <div class="slider__item">
+                    <img
+                      src="img/review1.jpg"
+                      alt="review1"
+                      class="slider__item-img"
+                    />
+                    <div class="slider__item-name">Анна, 25 лет</div>
+                    <div class="slider__item-text">
+                      Прекрасные блюда, похожие на те, что я обычно покупаю, а по
+                      рецептам их легко готовить. Тренировки проходят в хорошем темпе.
+                      Я похудела на 6 кг менее чем за неделю. Признаюсь, сначала я
+                      была настроена скептически, но это, безусловно, самая
+                      эффективная и недорогая схема питания, которую я когда-либо
+                      находила. Спасибо.
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <div class="slider__item">
+                    <img
+                      src="img/review2.jpg"
+                      alt="review2"
+                      class="slider__item-img"
+                    />
+                    <div class="slider__item-name">Диана, 32 года</div>
+                    <div class="slider__item-text">
+                      Я точно хочу поделиться своими результатами. Я похудел на 37
+                      фунтов (около 17 кг - прим.) за 3 месяца! Раньше у меня никогда
+                      не получалось достигнуть хороших результатов, когда я начинала
+                      работать над своим телом. Этот план помог мне найти
+                      действительно вкусные рецепты, основанные на моих требованиях.'
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <div class="slider__item">
+                    <img
+                      src="img/review3.jpg"
+                      alt="review3"
+                      class="slider__item-img"
+                    />
+                    <div class="slider__item-name">Екатерина, 38 года</div>
+                    <div class="slider__item-text">
+                      Программа, на мой взгляд, хорошо продумана, мне очень
+                      понравилась. Я похудела на 10 кг за месяц, изучила новые
+                      рецепты. Готовка требует времени, потому что все нужно
+                      взвешивать... так что к этому надо быть готовым. Но когда
+                      привыкаешь к рецептам, стараешься выбирать их снова, и готовить
+                      получается уже быстрее.Мне нравится это приложение!
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="reviews__slider__pagination pagination">
+            <div class="pagination__numbers">
+                <span id="current">1</span>
+                <span>/</span>
+                <span id="total">3</span>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="asks">
+      <div class="container">
+        <div class="asks__title">Наши клиенты часто спрашивают</div>
+        <div class="asks__item">
+          <div class="asks__item-title">Когда я получу свой план питания?</div>
+          <p>
+            Вы получите доступ к своему персонализированному плану питания сразу
+            же после оплаты.
+          </p>
+        </div>
+        <div class="asks__item">
+          <div class="asks__item-title">
+            Как я смогу получить доступ к своему плану питания?
+          </div>
+          <p>
+            Сразу после оплаты мы сгенерируем план питания на основе ваших
+            ответов на вопросы теста, а также ваших пожеланий. В верхнем правом
+            меню сайта выберите «Мой план питания» и введите свой адрес
+            электронной почты. Вот и все — вы мгновенно получите доступ к своему
+            личному файлу. Кроме того, ваш план питания будет также доступен по
+            ссылке в письме, которое мы отправим на ваш email.
+          </p>
+        </div>
+        <div class="asks__item">
+          <div class="asks__item-title">
+            Что делать, если я не получил/не получила письмо
+          </div>
+          <p>
+            Мы очень ценим наших клиентов и всегда готовы помочь с любым
+            вопросом. Если вы столкнулись с такой проблемой, сначала проверьте
+            папку со спамом. Несмотря на то, что вы всегда можете получить
+            доступ к своему плану с сайта, наша служба поддержки будет рада
+            отправить вам еще одно электронное письмо, если это необходимо.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="warranty">
+      <div class="container">
+        <div class="warranty__title">Гарантия возврата денег</div>
+        <div class="warranty__block">
+          <img src="img/warranty.svg" alt="warranty" class="warranty__img" />
+          <div class="warranty__text">
+            <p>
+              Возможно, вы уже успели попробовать множество других способов
+              похудеть и разочаровались в трате денег на них.
+            </p>
+            <p>
+              Мы настолько уверены в качестве наших услуг, что готовы полностью
+              вернуть вам деньги в течение 30 дней после покупки, если вы не
+              получите видимых результатов и сможете продемонстрировать, что вы
+              следовали нашему плану.
+            </p>
+            <p>
+              Узнайте больше о применимых ограничениях в
+              <a href="payment.html">нашей политике возврата денег.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <img src="img/way1.png" alt="way1" class="footer__item" /><img
+          src="img/way2.png"
+          alt="way2"
+          class="footer__item"
+        /><img src="img/way3.png" alt="way3" class="footer__item" /><img
+          src="img/way4.png"
+          alt="way4"
+          class="footer__item"
+        /><img src="img/way5.png" alt="way5" class="footer__item" /><img
+          src="img/way6.png"
+          alt="way6"
+          class="footer__item"
+        /><img src="img/way7.png" alt="way7" class="footer__item" /><img
+          src="img/way8.png"
+          alt="way8"
+          class="footer__item"
+        /><img src="img/way9.png" alt="way9" class="footer__item" /><img
+          src="img/way10.png"
+          alt="way10"
+          class="footer__item"
+        /><img src="img/way11.png" alt="way11" class="footer__item" /><img
+          src="img/way12.png"
+          alt="way12"
+          class="footer__item"
+        /><img src="img/way13.png" alt="way13" class="footer__item" /><img
+          src="img/way14.png"
+          alt="way14"
+          class="footer__item"
+        />
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/plan.js"></script>
+  </body>
+</html>
